@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
 
 <head>
@@ -15,86 +15,108 @@
 <div class="container_12">
 
   <!---start of section one-->
-  <div class="grid_4">
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+
+  <!--start of top nav bar-->
+  <nav class="grid_12 nav" alpha omega>
+    <ul class="grid_12 topnav">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="about.html">ABOUT</a>
+      <ul class="dropnav">
+        <li>Our Story</li>
+        <li>Our Team</li>
+        <li>Alumni</li>
+        <li>Contact Us</li>
+      </ul>
+      </li>
+      <li><a href="#ensembles">ENSEMBLES</a>
+        <ul class="dropnav">
+          <li>Youth Orchestra</li>
+          <li>Youth Strings</li>
+          <li>Cadet Strings</li>
+          <li>Youth Wings</li>
+          <li>Chamber</li>
+          <li>Join Our Team</li>
+        </ul>
+      </li>
+      <li><a class="active" href="media.html">MEDIA</a>
+        <ul class="dropnav">
+          <li>Press</li>
+          <li>Photo</li>
+          <li>Video</li>
+          <li>Audio</li>
+        </ul>
+      </li>
+      <li><a href="#resources">RESOURCES</a>
+        <ul class="dropnav">
+          <li>News</li>
+          <li>Dress Code</li>
+          <li>Music</li>
+          <li>Forms</li>
+          <li>Join Our Team</li>
+        </ul>
+      </li>
+      <li><a href="#support">GET INVOLVED</a>
+        <ul class="dropnav">
+          <li>Donate</li>
+          <li>Join Our Team</li>
+        </ul>
+      </li>
     </ul>
-  </div>
-
-<div class="grid_4">
-  <a href="index.html"><img src="#" alt="WVYS logo">
-  </a>
-
-<div class="grid_4">
-  <div class="search_bar">
-  <input type="text" placeholder="Search..">
-</div>
-</div>
-
-  <nav class="grid_12">
-  <ul class="topnav">
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#aboutus">About Us</a></li>
-    <li><a href="#ensembles">Ensembles</a></li>
-    <li><a href="#media">Media</a></li>
-    <li><a href="#formusicians">For Musicians</a></li>
-    <li><a href="#join">Join</a></li>
-    <li><a href="#support">support</a></li>
-  </ul>
   </nav>
-  <!---end of section one-->
+  <!---end of top nav-->
 
   <!---start of section two -->
-<header class="grid_12">
+<header class="grid_12 indeximg">
+  <ul class="grid_12">
+      <li><img src="images/home1.jpg" alt="youth syphony"></li>
+      <li><img src="images/home2.jpg" alt="youth symphony"></li>
+      <li><img src="images/home3.jpg" alt="youth symphony"></li>
+    </ul>
+  <div class="indeximagetext">
   <h1> West Virginia Youth Symphony </h1>
-
   <p> Providing opportunity for individual growth of musically talented and motivated youth. </p>
-
   <button type="button">Learn More Here</button>
-<ul>
-    <li><img src="images/home1.png" alt="youth syphony"></li>
-    <li><img src="#" alt="#"></li>
-    <li><img src="#" alt="#"></li>
-  </ul>
-</header>
 </div>
+</header>
+
   <!---end of section two -->
 
 <!---start of section three -->
-<div class="grid_12">
+<div class="grid_12 Join">
   <h2> Join our symphony!</h2>
 
-  <p> Learn more about our program and get involved. </p>
+  <p> <span style="color: #E8B375">Learn more</span> about our program and <span style="color: #E8B375">get involved.</span> </p>
 
-<button type="button">Learn More Here</button>
+<button type="button">DONATE</button>
 </div>
 <!---end of section three -->
 
 <!---start of section four-->
-<div class="grid_12">
+<div class="grid_8 prefix_2 whoarewe">
 <h1> Who Are We? </h1>
 <p>The West Virginia Youth Symphony is a non-profit youth arts organization that supports four music ensembles that meet for rehearsal weekly and perform regularly throughout an academic year program. Currently, 126 students from 11 West Virginia counties, and 36 different schools are enrolled in the program. Of those students, approximately 40 students participate in an optional chamber ensemble program learning unique repertoire for smaller ensemble learning and performing. Professional musicians from the West Virginia Symphony Orchestra and community are the conductors and coaches for the program. Master classes, field trips, run-out concerts and other special events may be included as funding permits. It is a fun and social musical learning adventure ~ with some of the most talented students and musicians from across the region participating! Students are presented challenging music to encourage musical growth and to provide a stimulating learning experience.</p>
 </div>
 <!---end of section four -->
 
 <!---start of section five-->
-<div class="grid_12">
-<p> Subscribe to our email list</p>
-
-<p> Email Address> <p>
-
+<div class="grid_12 email">
+<h3> Subscribe to our email list</p>
+<p> Email Address* <p>
+<input class="emailinput" type="text" placeholder="">
 <button type="button">Subscribe</button>
 </div>
 <!---end of section five-->
 
-<!---start of index header-->
+<!---start of about footer-->
 <footer class="grid_12">
-<h3> West Virginia Youth Symphony </h3> <!---ask kofi-->
+  <img class="navlogo" src="images/wvyslogo.png" alt="wvyslogo">
 
-<p> 4700 MacCorkle Ave. SE, Suite 101, Charleston WV 25304
-Office 304-957-9888<p>
+  <h3> West Virginia Youth Symphony </h3>
+  <!---ask kofi-->
+
+  <p> 4700 MacCorkle Ave. SE, Suite 101, Charleston WV 25304
+    Office 304-957-9888
+  <p>
 
   <div class="socialmedialinks">
     <ul>
@@ -102,12 +124,17 @@ Office 304-957-9888<p>
       <li></li>
       <li></li>
     </ul>
-    </div>
-
+  </div>
+  <div class="grid_12 bottominfo">
+  <p> © West Virginia Youth Symphony 2022 Privacy Policy Terms & Conditions</p>
 </div>
-<!---end of index footer-->
+</footer>
+
+<!---end of about footer-->
+
 
 </div> <!--closes container_12-->
 
 </body>
+
 </html>

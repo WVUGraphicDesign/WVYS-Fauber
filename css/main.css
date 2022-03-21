@@ -1,0 +1,436 @@
+/* css for media page */
+
+
+
+.container_12 .grid_12{
+width: 960px;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+.alpha {
+  margin-left: 0;
+}
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  background-color: #A6B5C6;
+  border-radius: 8px;
+  font-family: ingra;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.social li {
+  list-style: none;
+  float:left;
+}
+
+.search_bar input {
+  width:100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.topnav {
+  margin-left: 0;
+  margin-bottom: 0;
+  position: fixed;
+  background-color: #A6B5C6;
+}
+
+.nav li {
+  margin-left: 0;
+  text-align:center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 25px;
+}
+
+.topnav a:hover{
+  background-color: #ffff;
+}
+
+.topnav li{
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  font-family: ingra, sans-serif;
+  font-weight: 450;
+  margin-left: 0;
+  width: calc(100% / 6);
+}
+
+.dropnav {
+  display: none;
+  position: absolute;
+  margin-left: 0;
+}
+
+.dropnav li {
+  list-style: none;
+  margin-left: 0;
+  font-size: 12px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.dropnav a{
+  text-decoration: none;
+  color:#444444;
+  background-color: #F6F5F7;
+  border-bottom: 1px solid #ffff;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 160px;
+}
+
+.sidenav {
+  list-style-type: none;
+  padding-top: 110px;
+  font-size: 20px;
+  font-family: ingra, sans-serif;
+  font-weight: normal;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidenav li{
+  padding: 10px;
+}
+
+
+.active {
+  color: #E8B375;
+}
+
+
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.mediaimg {
+  position: relative;
+}
+
+.mediaimg img{
+  filter: brightness(80%);
+}
+
+
+.imagetext h1 {
+  position: absolute;
+  top: 200px;
+  left: 380px;
+  color: white;
+  font-family: goldenbook;
+  font-size: 80px;
+}
+
+.imagetext p {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  color: white;
+  font-family: ingra;
+  font-size: 35px;
+}
+
+.press {
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.press h2 {
+    padding-top:18px;
+    font-family: goldenbook, serif;
+    font-size: 40px;
+    color: #A6B5C6;
+    }
+
+.press h3 {
+  font-family: ingra,sans-serif;
+  font-weight: 500;
+}
+
+.press p {
+  font-family: ingra,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
+}
+
+footer {
+  background-color: #F3F0EC;
+  text-align: center;
+  padding-top:50px;
+}
+
+footer h3{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: goldenbook;
+}
+
+.navlogo{
+  padding-bottom: 20px;
+}
+
+.bottominfo{
+  width: 100%;
+  padding-top: 30px;
+  font-family: ingra;
+  font-weight: normal;
+}
+/* end of css for media page */
+
+/* css for index page */
+
+.indeximg{
+  position: relative;
+}
+
+.indeximg li {
+    width: 100%;
+    filter: brightness(80%);
+  }
+
+.indeximagetext{
+  position: relative;
+  }
+
+  .indeximagetext h1 {
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    color: #A6B5C6;
+    font-family: goldenbook;
+    font-size: 65px;
+  }
+
+  .indeximagetext p {
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    color: white;
+    font-family: ingra;
+  font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.Join {
+  background-color: #F3F0EC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.join h2{
+  font-family: goldenbook;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.join p{
+  font-family: ingra;
+  font-weight: normal;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+
+.whoarewe {
+  padding: 50px;
+  text-align: center;
+}
+
+.whoarewe h1{
+  font-family: goldenbook;
+  font-weight: bold;
+  font-size: 40px;
+  color: #A6B5C6;
+}
+
+.whoarewe p{
+  font-size: 18px;
+  font-weight: normal;
+  color:#444444;
+}
+
+.email {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  background-color: #A6B5C6;
+}
+
+.email h3{
+  font-family: ingra, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
+  padding-left: 40px;
+}
+
+.email p{
+  font-family: ingra
+  color: black;
+  font-size: 15px;
+}
+
+
+/* end of css for index page */
+
+
+/* css for aboutus page */
+
+.aboutusimg img {
+    width: 100%;
+    filter: brightness(70%)
+  }
+
+.aboutusimg {
+  position: relative;
+}
+
+.aboutustext h1{
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-family: goldenbook;
+    font-size: 80px;
+}
+
+.aboutustext p{
+  position: absolute;
+    top: 300px;
+    left: 321px;
+    color: white;
+    font-family: ingra;
+    font-size: 35px;
+}
+
+.aboutwvys h1{
+  font-family: goldenbook, serif;
+  font-weight: semi-bold;
+  font-size: 40px;
+  color: #A6B5C6;
+}
+
+.aboutwvys p{
+  font-family: ingra, sans-serif;
+  font-weight: normal;
+  font-size: 20.5px;
+  color: #444444;
+}
+
+.missions h2{
+  font-family: goldenbook, serif;
+  font-weight: semi-bold;
+  font-size: 30px;
+  color: #E8B375;
+}
+ .missions p{
+   font-family: ingra, sans-serif;
+   font-weight: normal;
+   font-size: 20.5px;
+   color: #444444;
+ }
+
+ .goals{
+   padding-bottom: 50px;
+ }
+
+.goals h2{
+font-family: goldenbook, serif;
+font-weight: semi-bold;
+font-size: 30px;
+color: #E8B375;
+}
+
+.goals li{
+  font-family: ingra, sans-serif;
+  font-weight: normal;
+  font-size: 20.5px;
+  color: #444444;
+}
+
+.goals ul{
+  list-style: disc;
+}
+
+
+/* end of css for aboutus page */
+
+
+/* start of conductors page */
+
+.conductorstext h1{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: white;
+    font-family: goldenbook;
+    font-size: 80px;
+}
+
+.conductorstext p{
+  position: absolute;
+    top: 300px;
+    left: 500px;
+    color: white;
+    font-family: ingra;
+    font-size: 35px;
+}
+
+.conductorsimg img{
+  position: relative;
+  width: 100%;
+  filter: brightness(80%);
+}
+
+.aboutconductors h1{
+  font-family: goldenbook;
+  font-size: 40px;
+  font-weight: bold;
+  color: #A6B5C6;
+}
+
+.ianjessee{
+  padding-top: 50px;
+}

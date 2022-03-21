@@ -15,81 +15,127 @@
   <div class="container_12">
 
     <!---start of section one-->
-    <div class="grid_4">
-      <a href="index.html"><img src="#" alt="WVYS logo">
-      </a>
-    </div>
-
-    <div class="grid_4">
+    <!--<div class="prefix_4 grid_3">
       <div class="search_bar">
-      <input type="text" placeholder="Search..">
+        <input type="text" placeholder="Search..">
+      </div>
     </div>
-    </div>
+  </div> -->
 
-      <nav class="grid_12">
-      <ul class="topnav">
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#aboutus">About Us</a></li>
-        <li><a href="#ensembles">Ensembles</a></li>
-        <li><a href="#media">Media</a></li>
-        <li><a href="#formusicians">For Musicians</a></li>
-        <li><a href="#join">Join</a></li>
-        <li><a href="#support">support</a></li>
+    <!--start of top nav bar-->
+    <nav class="grid_12 nav" alpha omega>
+      <ul class="grid_12 topnav">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="about.html">ABOUT</a>
+        <ul class="dropnav">
+          <li>Our Story</li>
+          <li>Our Team</li>
+          <li>Alumni</li>
+          <li>Contact Us</li>
+        </ul>
+        </li>
+        <li><a href="#ensembles">ENSEMBLES</a>
+          <ul class="dropnav">
+            <li>Youth Orchestra</li>
+            <li>Youth Strings</li>
+            <li>Cadet Strings</li>
+            <li>Youth Wings</li>
+            <li>Chamber</li>
+            <li>Join Our Team</li>
+          </ul>
+        </li>
+        <li><a class="active" href="media.html">MEDIA</a>
+          <ul class="dropnav">
+            <li>Press</li>
+            <li>Photo</li>
+            <li>Video</li>
+            <li>Audio</li>
+          </ul>
+        </li>
+        <li><a href="#resources">RESOURCES</a>
+          <ul class="dropnav">
+            <li>News</li>
+            <li>Dress Code</li>
+            <li>Music</li>
+            <li>Forms</li>
+            <li>Join Our Team</li>
+          </ul>
+        </li>
+        <li><a href="#support">GET INVOLVED</a>
+          <ul class="dropnav">
+            <li>Donate</li>
+            <li>Join Our Team</li>
+          </ul>
+        </li>
       </ul>
-      </nav>
-      <!---end of section one-->
+    </nav>
+    <!---end of top nav-->
 
-      <!---start of section two -->
-      <div class="grid_12">
-      <img src="#" alt="#">
+    <!---start of section two -->
+    <div class="grid_12 mediaimg">
+      <img src="images/media1.jpg" alt="person playing violin">
+      <div class="imagetext">
       <h1> Media </h1>
-      <h2> Overview </h2>
-      </div>
-      <!---end of section two -->
-
-
-      <!---start of side nav on about -->
-      <div class="grid_3">
-        <a class="active" href="#aboutus">About Us</a>
-        <a href="#ensembles">Ensembles</a>
-        <a href="#media">Media</a>
-        <a href="#formusicians">For Musicians</a>
-        <a href="#join">Join</a>
-        <a href="#support">support</a>
-      </div>
-      <!---end of side nav on about -->
-
-<!---start of press release -->
-<div class="grid_9">
-<h2> Press Releases </h2>
-<h3> December 19, 2019:  West Virginia Youth Symphony Winter Concert </h3>
-<p> The West Virginia Youth Symphony (WVYS) will hold its annual Winter Concert on Sunday, January 12, 2020 at 3:00 pm in the University of Charleston Geary Auditorium. (Read the full release)</p>
-
-<h3> May 21, 2019: West Virginia Youth Symphony Announces NEW General Manager </h3>
-<p> The West Virginia Youth Symphony (WVYS) is pleased to announce its new General Manager, Natalie Wehrle.  (Read the full release) </p>
-</div>
-
-
-
-<!---start of about header-->
-<footer class="grid_12">
-<h3> West Virginia Youth Symphony </h3> <!---ask kofi-->
-
-<p> 4700 MacCorkle Ave. SE, Suite 101, Charleston WV 25304
-Office 304-957-9888<p>
-
-  <div class="socialmedialinks">
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+      <p> Overview </p>
     </div>
-  </footer>
+    </div>
+    <!---end of section two -->
 
-<!---end of index footer-->
+    <!--<a class="active" href="about.html">ABOUT <i class="fas fa-caret-down"></i>
+    </a>-->
 
-</div> <!--closes container_12-->
+    <!---start of side nav on about -->
+    <div class="grid_3 sidenav">
+      <li class="active"><a href="pressreleases">Press Releases</a></li>
+      <hr>
+      <li> <a href="photogallery">Photo Gallery</a></li>
+      <hr>
+      <li> <a href="videos">Videos</a></li>
+      <hr>
+      <li> <a href="audios">Audios</a></li>
+      <hr>
+    </div>
+    <!---end of side nav on about -->
+
+    <!---start of press release -->
+    <div class="grid_9 press">
+      <h2> Press Releases </h2>
+      <h3> December 19, 2019: West Virginia Youth Symphony Winter Concert </h3>
+      <p> The West Virginia Youth Symphony (WVYS) will hold its annual Winter Concert on Sunday, January 12, 2020 at 3:00 pm in the University of Charleston Geary Auditorium. (Read the full release)</p>
+
+      <h3> May 21, 2019: West Virginia Youth Symphony Announces NEW General Manager </h3>
+      <p> The West Virginia Youth Symphony (WVYS) is pleased to announce its new General Manager, Natalie Wehrle. (Read the full release) </p>
+    </div>
+
+
+
+    <!---start of about footer-->
+    <footer class="grid_12">
+      <img class="navlogo" src="images/wvyslogo.png" alt="wvyslogo">
+
+      <h3> West Virginia Youth Symphony </h3>
+      <!---ask kofi-->
+
+      <p> 4700 MacCorkle Ave. SE, Suite 101, Charleston WV 25304
+        Office 304-957-9888
+      <p>
+
+      <div class="socialmedialinks">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="grid_12 bottominfo">
+      <p> © West Virginia Youth Symphony 2022 Privacy Policy Terms & Conditions</p>
+</div>
+    </footer>
+
+    <!---end of footer-->
+
+  </div> <!--closes container_12-->
 
 </body>
-  </html>
+
+</html>
