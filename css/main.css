@@ -1,30 +1,8 @@
 /* css for media page */
 
-
-
-.container_12 .grid_12{
-width: 960px;
-}
-
-.omega {
-  margin-right: 0;
-}
-
-.alpha {
-  margin-left: 0;
-}
-
-.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
-display: inline;
-float: left;
-margin-left: 10px;
-margin-right: 10px;
-}
-
-
 button{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
   border: none;
@@ -32,8 +10,19 @@ button{
   border-radius: 8px;
   font-family: ingra;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
+}
+
+.slider img {
+  width:100%;
+  height: 640px;
+}
+
+.emailbutton{
+
+  margin-left: 140px;
+  background-color: #444444;
 }
 
 .social li {
@@ -58,6 +47,7 @@ ul {
   margin-bottom: 0;
   position: fixed;
   background-color: #A6B5C6;
+  z-index: 999;
 }
 
 .nav li {
@@ -148,8 +138,28 @@ ul {
 }
 
 .mediaimg img{
-  filter: brightness(80%);
+  filter: brightness(90%);
 }
+
+.joinimagetext h1{
+  position: absolute;
+  top: 200px;
+  left: 465px;
+  color: white;
+  font-family: goldenbook;
+  font-size: 80px;
+}
+
+.joinimagetext p{
+  position: absolute;
+  top: 300px;
+  left: 430px;
+  color: white;
+  font-family: ingra;
+  font-size: 35px;
+  padding-top: 10px;
+}
+
 
 
 .imagetext h1 {
@@ -172,7 +182,7 @@ ul {
 
 .press {
   padding-bottom: 50px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .press h2 {
@@ -227,16 +237,22 @@ footer h3{
 
 .indeximg li {
     width: 100%;
-    filter: brightness(80%);
+    filter: brightness(90%);
+    margin-left: 0;
   }
 
 .indeximagetext{
   position: relative;
   }
 
+  .indeximg li img {
+    width:100%;
+  }
+
+
   .indeximagetext h1 {
     position: absolute;
-    top: 60px;
+    top: 20px;
     left: 130px;
     color: #A6B5C6;
     font-family: goldenbook;
@@ -321,7 +337,7 @@ footer h3{
 
 .aboutusimg img {
     width: 100%;
-    filter: brightness(70%)
+    filter: brightness(80%)
   }
 
 .aboutusimg {
@@ -347,6 +363,7 @@ footer h3{
 }
 
 .aboutwvys h1{
+  padding-top: 30px;
   font-family: goldenbook, serif;
   font-weight: semi-bold;
   font-size: 40px;
@@ -426,12 +443,135 @@ color: #E8B375;
 }
 
 .aboutconductors h1{
+  padding-top: 50px;
   font-family: goldenbook;
   font-size: 40px;
   font-weight: bold;
   color: #A6B5C6;
 }
 
+.aboutconductors h2{
+  font-family: ingra, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #E8B375;
+}
+
+.aboutconductors p{
+  font-family: ingra,sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #444444;
+}
+
 .ianjessee{
   padding-top: 50px;
+}
+
+
+.emailinput {
+  width: 70%;
+  margin: 0 auto;
+  display: table;
+}
+
+.mediaphotogalleryimg {
+  filter: brightness(80%);
+}
+
+
+.photogallerytext h1{
+  position: absolute;
+  top: 150px;
+  left: 430px;
+  color: white;
+  font-family: goldenbook;
+  font-size: 80px;
+}
+
+.photogallerytext p {
+  position: absolute;
+  top: 250px;
+  left: 410px;
+  color: white;
+  font-family: ingra;
+  font-size: 35px;
+}
+
+.photogalleryinfo h2{
+  padding-top: 50px;
+  font-family:goldenbook,serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #A6B5C6;
+}
+
+.photogalleryinfo h3{
+  padding-top: 10px;
+  font-family:ingra,sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #E8B375;
+}
+
+.photogalleryinfo p{
+  font-family: ingra,sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #444444;
+}
+
+.auditioninfo h1{
+  padding-top: 50px;
+  font-family: goldenbook,serif;
+  font-weight: bold;
+  font-size: 35px;
+  color:#A6B5C6;
+}
+
+.auditioninfo p{
+ font-family: ingra,sans-serif;
+ font-weight: normal;
+ font-size: 20px;
+ color: #444444;
+}
+
+.auditionrequirements h1{
+  padding-top: 50px;
+  font-family: goldenbook,serif;
+  font-weight: bold;
+  font-size: 35px;
+  color:#A6B5C6;
+  text-align: center;
+}
+
+.auditionrequirements p{
+  font-family: ingra,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
+}
+
+.themusic h1{
+  padding-top: 50px;
+  font-family: goldenbook,serif;
+  font-weight: bold;
+  font-size: 35px;
+  color:#A6B5C6;
+  text-align: center;
+}
+
+.themusic p{
+  font-family: ingra,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
+}
+
+.themusic li{
+  font-family: ingra,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
+  padding: 10px;
 }
