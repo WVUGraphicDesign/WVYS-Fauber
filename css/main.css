@@ -726,3 +726,53 @@ padding-bottom: 30px;
   font-weight: normal;
   padding-bottom: 50px;
 }
+
+.programs h1{
+  font-family: goldenbook, serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #A6B5C6;
+}
+
+.programs p{
+  font-family: ingra,sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color:#444444;
+}
+
+
+.youthorchestra h2{
+  font-family: goldenbook, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color:#E8B375;
+}
+
+.youthstrings h2{
+  font-family: goldenbook, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color:#E8B375;
+}
+
+.cadetstrings h2{
+  font-family: goldenbook, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color:#E8B375;
+}
+
+.youthwinds h2{
+  font-family: goldenbook, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color:#E8B375;
+}
+
+.chambermusic h2{
+  font-family: goldenbook, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color:#E8B375;
+}
