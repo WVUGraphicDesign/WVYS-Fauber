@@ -1,0 +1,59 @@
+
+.sidenav{
+  font-family:'ingra', sans-serif;
+}
+
+
+.submitbutton{
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+h2{
+  font-family: 'goldenbook', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #A6B5C6;
+  padding-top: 50px;
+}
+
+.forms{
+  font-family: 'goldenbook', serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #E8B375;
+  text-align: left;
+}
+
+h1{padding-top: 50px;
+font-family: 'goldenbook', serif;
+font-size: 40px;
+font-weight: bold;
+color: #A6B5C6;
+}
+
+.grid_7{
+  padding: 10px;
+}
+
+.formtext h1{
+  position: absolute;
+  top: 50px;
+  left: 550px;
+  color: white;
+  font-family: 'goldenbook', serif;
+  font-size: 80px;
+}
+
+
+
+.formtext p{
+position: absolute;
+  top: 200px;
+  left: 700px;
+  color: white;
+  font-family: 'ingra', sans-serif;
+  font-size: 35px;
+}

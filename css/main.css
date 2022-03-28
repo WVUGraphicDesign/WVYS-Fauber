@@ -8,7 +8,7 @@ button{
   border: none;
   background-color: #E8B375;
   border-radius: 8px;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   color: white;
   font-size: 20px;
   font-weight: lighter;
@@ -27,7 +27,7 @@ button{
   border: none;
   background-color: #E8B375;
   border-radius: 8px;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   color: white;
   font-size: 20px;
   font-weight: lighter;
@@ -56,7 +56,7 @@ header{
 header li{
   display: inline;
   padding-left: 45px;
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: 500;
   font-size: 15px;
   color: #444444;
@@ -155,7 +155,7 @@ width: 100%;
   float: left;
   list-style: none;
   font-size: 14px;
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: 450;
   margin-left: 0;
 }
@@ -189,7 +189,7 @@ width: 100%;
   list-style-type: none;
   padding-top: 110px;
   font-size: 20px;
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
 }
 
@@ -205,7 +205,7 @@ width: 100%;
 .joinsidenav {
   list-style-type: none;
   font-size: 20px;
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   padding-top: 30px;
 }
@@ -257,7 +257,7 @@ width: 100%;
   top: 200px;
   left: 465px;
   color: white;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-size: 80px;
 }
 
@@ -266,7 +266,7 @@ width: 100%;
   top: 300px;
   left: 430px;
   color: white;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-size: 35px;
   padding-top: 10px;
 }
@@ -278,16 +278,16 @@ width: 100%;
   top: 100px;
   left: 600px;
   color: white;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-size: 80px;
 }
 
 .imagetext p {
   position: absolute;
   top: 190px;
-  left: 630px;
+  left: 580px;
   color: white;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-size: 35px;
 }
 
@@ -298,19 +298,18 @@ width: 100%;
 
 .press h2 {
     padding-top:18px;
-    font-family: goldenbook, serif;
-    font-size: 40px;
+    font-family: 'goldenbook', serif;
     color: #A6B5C6;
     }
 
 .press h3 {
-  font-family: goldenbook, serif;
+  font-family: 'goldenbook', serif;
   font-weight: 600;
   color: #E8B375;
 }
 
 .press p {
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #444444;
@@ -327,7 +326,7 @@ footer {
 footer h3{
   font-size: 20px;
   font-weight: normal;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
 }
 
 footer p{
@@ -341,7 +340,7 @@ footer p{
 .bottominfo{
   width: 100%;
   padding-top: 30px;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   color: black;
 }
@@ -378,14 +377,14 @@ footer p{
 
   .indeximagetext h1 {
     color: #fff;
-    font-family: goldenbook;
+    font-family: 'goldenbook', serif;
     font-size: 65px;
     font-weight: 600;
   }
 
   .indeximagetext p {
     color: white;
-    font-family: ingra;
+    font-family: 'ingra', sans-serif;
   font-weight: lighter;
     font-size: 30px;
     text-align: center;
@@ -399,13 +398,13 @@ footer p{
 }
 
 .join h2{
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 30px;
 }
 
 .join p{
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 23px;
   padding-bottom: 20px;
@@ -417,7 +416,7 @@ footer p{
 }
 
 .whoarewe h1{
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 40px;
   color: #A6B5C6;
@@ -434,13 +433,13 @@ footer p{
   padding-bottom: 50px;
   text-align: left;
   background-color: #A6B5C6;
-  width: 100%
+  width: 100%;
   float:left;
 }
 
 
 .email h3{
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #444444;
@@ -448,7 +447,7 @@ footer p{
 }
 
 .email p{
-  font-family: ingra
+  font-family: 'ingra', sans-serif;
   color: black;
   font-size: 15px;
 }
@@ -474,7 +473,7 @@ footer p{
     top: 100px;
     left: 600px;
     color: white;
-    font-family: goldenbook;
+    font-family: 'goldenbook', serif;
     font-size: 80px;
 }
 
@@ -483,7 +482,7 @@ footer p{
     top: 200px;
     left: 570px;
     color: white;
-    font-family: ingra;
+    font-family: 'ingra', sans-serif;
     font-size: 35px;
 }
 
@@ -491,14 +490,14 @@ footer p{
 
 .aboutwvys h1{
   padding-top: 30px;
-  font-family: goldenbook, serif;
-  font-weight: semi-bold;
+  font-family: 'goldenbook', serif;
+  font-weight: bold;
   font-size: 40px;
   color: #A6B5C6;
 }
 
 .aboutwvys p{
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20.5px;
   color: #444444;
@@ -512,13 +511,13 @@ footer p{
 
 
 .missions h2{
-  font-family: goldenbook, serif;
-  font-weight: semi-bold;
+  font-family: 'goldenbook', serif;
+  font-weight: bold;
   font-size: 30px;
   color: #E8B375;
 }
  .missions p{
-   font-family: ingra, sans-serif;
+   font-family: 'ingra', sans-serif;
    font-weight: normal;
    font-size: 20.5px;
    color: #444444;
@@ -529,14 +528,14 @@ footer p{
  }
 
 .goals h2{
-font-family: goldenbook, serif;
-font-weight: semi-bold;
+font-family: 'goldenbook', serif;
+font-weight: bold;
 font-size: 30px;
 color: #E8B375;
 }
 
 .goals li{
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20.5px;
   color: #444444;
@@ -555,18 +554,18 @@ color: #E8B375;
 .conductorstext h1{
     position: absolute;
     top: 200px;
-    left: 500px;
+    left: 650px;
     color: white;
-    font-family: goldenbook;
+    font-family: 'goldenbook', serif;
     font-size: 80px;
 }
 
 .conductorstext p{
   position: absolute;
     top: 300px;
-    left: 500px;
+    left: 635px;
     color: white;
-    font-family: ingra;
+    font-family: 'ingra', sans-serif;
     font-size: 35px;
 }
 
@@ -579,21 +578,21 @@ color: #E8B375;
 
 .aboutconductors h1{
   padding-top: 50px;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-size: 40px;
   font-weight: bold;
   color: #A6B5C6;
 }
 
 .aboutconductors h2{
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: #E8B375;
 }
 
 .aboutconductors p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #444444;
@@ -626,7 +625,7 @@ color: #E8B375;
   top: 150px;
   left: 640px;
   color: white;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-size: 80px;
 }
 
@@ -635,13 +634,13 @@ color: #E8B375;
   top: 250px;
   left: 625px;
   color: white;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-size: 35px;
 }
 
 .photogalleryinfo h2{
   padding-top: 50px;
-  font-family:goldenbook,serif;
+  font-family:'goldenbook', serif;
   font-size: 40px;
   font-weight: bold;
   color: #A6B5C6;
@@ -649,14 +648,14 @@ color: #E8B375;
 
 .photogalleryinfo h3{
   padding-top: 10px;
-  font-family:ingra,sans-serif;
+  font-family:'ingra', sans-serif;
   font-size: 25px;
   font-weight: 400;
   color: #E8B375;
 }
 
 .photogalleryinfo p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   font-weight: normal;
   color: #444444;
@@ -664,14 +663,14 @@ color: #E8B375;
 
 .auditioninfo h1{
   padding-top: 50px;
-  font-family: goldenbook,serif;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 35px;
   color:#A6B5C6;
 }
 
 .auditioninfo p{
- font-family: ingra,sans-serif;
+ font-family: 'ingra', sans-serif;
  font-weight: normal;
  font-size: 20px;
  color: #444444;
@@ -689,7 +688,7 @@ color: #E8B375;
 
 .challenge h1{
   padding-top: 50px;
-  font-family: goldenbook,serif;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 35px;
   color:#A6B5C6;
@@ -697,7 +696,7 @@ color: #E8B375;
 }
 
 .challenge p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   color: #444444;
   padding-left: 490px;
@@ -706,7 +705,7 @@ color: #E8B375;
 
 .auditionrequirements h1{
   padding-top: 50px;
-  font-family: goldenbook,serif;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 35px;
   color:#A6B5C6;
@@ -718,7 +717,7 @@ color: #E8B375;
 }
 
 .auditionrequirements p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   color: #444444;
   padding-left: 490px;
@@ -732,21 +731,21 @@ color: #E8B375;
 
 .themusic h1{
   padding-top: 50px;
-  font-family: goldenbook,serif;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 35px;
   color:#A6B5C6;
 }
 
 .themusic p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 10px;
   color: #444444;
 }
 
 .themusic li{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #444444;
@@ -755,7 +754,7 @@ color: #E8B375;
 
 
 .challenge ol{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #444444;
@@ -772,7 +771,7 @@ color: #E8B375;
   top: 200px;
   left: 530px;
   color: white;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-size: 80px;
 }
 
@@ -781,13 +780,13 @@ color: #E8B375;
   top: 300px;
   left: 700px;
   color: white;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-size: 35px;
   padding-top: 10px;
 }
 
 .covidforms h1{
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-weight: bold;
   font-size: 40px;
   color: #A6B5C6;
@@ -795,13 +794,13 @@ color: #E8B375;
 }
 
 .covidforms h2{
-  font-family: goldenbook, serif;
+  font-family: 'goldenbook', serif;
   font-weight: 600;
   color: #E8B375;
 }
 
 .covidforms li{
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20.5px;
   color: #444444;
@@ -813,13 +812,13 @@ color: #E8B375;
 
 
 .studentforms h2{
-  font-family: goldenbook, serif;
+  font-family: 'goldenbook', serif;
   font-weight: 600;
   color: #E8B375;
 }
 
 .studentforms li{
-  font-family: ingra, sans-serif;
+  font-family: 'ingra', sans-serif;
   font-weight: normal;
   font-size: 20.5px;
   color: #444444;
@@ -830,7 +829,7 @@ color: #E8B375;
 }
 
 .jointhesymphony h1{
-  font-family: goldenbook, serif;
+  font-family: 'goldenbook', serif;
   font-size: 40px;
   color:#A6B5C6;
   font-weight: bold;
@@ -838,21 +837,21 @@ color: #E8B375;
 }
 
 .jointhesymphony p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   color: #444444;
   font-weight: normal;
 }
 
 .tuitioninfo h2{
-font-family: goldenbook,sans-serif;
+font-family: 'goldenbook', serif;
 font-weight: bold;
 font-size: 30px;
 color:#E8B375;
 }
 
 .tuitioninfo ul{
-font-family: ingra,sans-serif;
+font-family: 'ingra', sans-serif;
 font-weight: bold;
 font-size: 20px;
 color: #444444;
@@ -864,27 +863,27 @@ padding-bottom: 30px;
 }
 
 .tuitioninfo p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   color: #444444;
 }
 
 .financialaid h2{
-  font-family: goldenbook,serif;
+  font-family: 'goldenbook', serif;
   font-size: 30px;
   font-weight:bold;
   color:#E8B375;
 }
 
 .financialaid p{
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   font-weight: normal;
   padding-bottom: 50px;
 }
 
 .programs h1{
-  font-family: goldenbook, serif;
+  font-family: 'goldenbook', serif;
   font-size: 40px;
   font-weight: bold;
   color: #A6B5C6;
@@ -892,7 +891,7 @@ padding-bottom: 30px;
 }
 
 .programs p{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
   font-weight: normal;
   color:#444444;
@@ -900,35 +899,35 @@ padding-bottom: 30px;
 
 
 .youthorchestra h2{
-  font-family: goldenbook, sans-serif;
+  font-family: 'goldenbook', serif;
   font-size: 30px;
   font-weight: bold;
   color:#E8B375;
 }
 
 .youthstrings h2{
-  font-family: goldenbook, sans-serif;
+  font-family: 'goldenbook', serif;
   font-size: 30px;
   font-weight: bold;
   color:#E8B375;
 }
 
 .cadetstrings h2{
-  font-family: goldenbook, sans-serif;
+  font-family: 'goldenbook', serif;
   font-size: 30px;
   font-weight: bold;
   color:#E8B375;
 }
 
 .youthwinds h2{
-  font-family: goldenbook, sans-serif;
+  font-family: 'goldenbook', serif;
   font-size: 30px;
   font-weight: bold;
   color:#E8B375;
 }
 
 .chambermusic h2{
-  font-family: goldenbook, sans-serif;
+  font-family: 'goldenbook', serif;
   font-size: 30px;
   font-weight: bold;
   color:#E8B375;
@@ -940,7 +939,7 @@ padding-bottom: 30px;
   top: 200px;
   left: 580px;
   color: white;
-  font-family: goldenbook;
+  font-family: 'goldenbook', serif;
   font-size: 80px;
 }
 
@@ -949,14 +948,14 @@ padding-bottom: 30px;
   top: 290px;
   left: 665px;
   color: white;
-  font-family: ingra;
+  font-family: 'ingra', sans-serif;
   font-size: 35px;
   padding-top: 10px;
 }
 
 .ensemblesp{
-  font-family: ingra,sans-serif;
+  font-family: 'ingra', sans-serif;
   font-size: 20px;
-  font-weight: regular;
+  font-weight: normal;
 color: #444444
 }
