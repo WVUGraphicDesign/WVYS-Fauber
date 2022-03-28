@@ -1,30 +1,94 @@
 /* css for media page */
 
 button{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 30px;
   padding-right: 30px;
   border: none;
-  background-color: #A6B5C6;
+  background-color: #E8B375;
   border-radius: 8px;
   font-family: ingra;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
 }
 
-.slider img {
-  width:100%;
-  height: 640px;
+.learnmore{
+  text-decoration: none;
+  color: white;
 }
+
+ .donatebutton{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  background-color: #E8B375;
+  border-radius: 8px;
+  font-family: ingra;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
 
 .emailbutton{
   margin-left: 169px;
   background-color: #444444;
 }
 
-.email
+.bx-wrapper .bx-controls-direction a{
+  top: 50% !important;
+}
+
+
+
+header{
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 0 3px #000
+}
+
+header li{
+  display: inline;
+  padding-left: 45px;
+  font-family: ingra,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #444444;
+}
+
+header li a{
+  color: #333;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+header li a:hover{
+  color: #E8B375;
+}
+
+header ul #contact a{
+  color: #fff;
+  background-color: #E8B375;
+  border-radius: 4px;
+  position: relative;
+  transition: .3s ease;
+  padding: 15px;
+}
+
+header ul #contact a:hover{
+  background-color: #444444;
+}
+
+.active{
+  color: #E8B375;
+}
+
 
 .social li {
   list-style: none;
@@ -42,14 +106,20 @@ ul {
 }
 
 
+nav {
+  background-color: #F3F0EC;
+height: 70px;
+float: left;
+width: 100%;
+}
 
 .topnav {
-  width:100%;
   margin-left: 0;
   margin-bottom: 0;
   position: fixed;
-  background-color: #F3F0EC;
+  right: 0;
   z-index: 999;
+
 }
 
 .nav li {
@@ -149,10 +219,12 @@ ul {
   padding: 10px;
 }
 
-
 .active {
   color: #E8B375;
 }
+
+
+
 
 
 
@@ -168,8 +240,16 @@ ul {
   position: relative;
 }
 
-.mediaimg img{
-  filter: brightness(90%);
+/* .mediaimg img{
+  filter: brightness(70%);
+  width: 100%;
+  height: 410px;
+} */
+
+.topimg{
+ height: 410px; width:100%; overflow: hidden;
+ filter: brightness(80%);
+ margin-left: 240px;
 }
 
 .joinimagetext h1{
@@ -195,8 +275,8 @@ ul {
 
 .imagetext h1 {
   position: absolute;
-  top: 200px;
-  left: 380px;
+  top: 100px;
+  left: 600px;
   color: white;
   font-family: goldenbook;
   font-size: 80px;
@@ -204,8 +284,8 @@ ul {
 
 .imagetext p {
   position: absolute;
-  top: 300px;
-  left: 400px;
+  top: 190px;
+  left: 630px;
   color: white;
   font-family: ingra;
   font-size: 35px;
@@ -237,6 +317,8 @@ ul {
 }
 
 footer {
+  float: left;
+  width: 100%;
   background-color: #F3F0EC;
   text-align: center;
   padding-top:50px;
@@ -248,6 +330,10 @@ footer h3{
   font-family: goldenbook;
 }
 
+footer p{
+  color: black;
+}
+
 .navlogo{
   padding-bottom: 20px;
 }
@@ -257,6 +343,7 @@ footer h3{
   padding-top: 30px;
   font-family: ingra;
   font-weight: normal;
+  color: black;
 }
 /* end of css for media page */
 
@@ -268,32 +355,35 @@ footer h3{
 
 .indeximg li {
     width: 100%;
-    filter: brightness(90%);
+    filter: brightness(70%);
     margin-left: 0;
   }
 
 .indeximagetext{
-  position: relative;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  padding-top: 10em;
   }
 
   .indeximg li img {
     width:100%;
+    height: 600px;
+    overflow: hidden;
   }
 
 
   .indeximagetext h1 {
-    position: absolute;
-    top: 20px;
-    left: 130px;
-    color: #A6B5C6;
+    color: #fff;
     font-family: goldenbook;
     font-size: 65px;
+    font-weight: 600;
   }
 
   .indeximagetext p {
-    position: absolute;
-    top: 170px;
-    left: 90px;
     color: white;
     font-family: ingra;
   font-weight: lighter;
@@ -344,7 +434,10 @@ footer h3{
   padding-bottom: 50px;
   text-align: left;
   background-color: #A6B5C6;
+  width: 100%
+  float:left;
 }
+
 
 .email h3{
   font-family: ingra, sans-serif;
@@ -366,10 +459,11 @@ footer h3{
 
 /* css for aboutus page */
 
-.aboutusimg img {
+/* .aboutusimg img {
     width: 100%;
+    height:410px;
     filter: brightness(80%)
-  }
+  } */
 
 .aboutusimg {
   position: relative;
@@ -377,8 +471,8 @@ footer h3{
 
 .aboutustext h1{
     position: absolute;
-    top: 200px;
-    left: 320px;
+    top: 100px;
+    left: 600px;
     color: white;
     font-family: goldenbook;
     font-size: 80px;
@@ -386,12 +480,14 @@ footer h3{
 
 .aboutustext p{
   position: absolute;
-    top: 300px;
-    left: 321px;
+    top: 200px;
+    left: 570px;
     color: white;
     font-family: ingra;
     font-size: 35px;
 }
+
+
 
 .aboutwvys h1{
   padding-top: 30px;
@@ -407,6 +503,13 @@ footer h3{
   font-size: 20.5px;
   color: #444444;
 }
+
+.wvyslogo{
+  height: 60px;
+  margin-left: 30px;
+}
+
+
 
 .missions h2{
   font-family: goldenbook, serif;
@@ -467,11 +570,12 @@ color: #E8B375;
     font-size: 35px;
 }
 
-.conductorsimg img{
+/* .conductorsimg img{
   position: relative;
   width: 100%;
+  height: 410px;
   filter: brightness(80%);
-}
+} */
 
 .aboutconductors h1{
   padding-top: 50px;
@@ -512,13 +616,15 @@ color: #E8B375;
 
 .mediaphotogalleryimg {
   filter: brightness(80%);
+  width: 100%;
+  height: 410px;
 }
 
 
 .photogallerytext h1{
   position: absolute;
   top: 150px;
-  left: 430px;
+  left: 640px;
   color: white;
   font-family: goldenbook;
   font-size: 80px;
@@ -527,7 +633,7 @@ color: #E8B375;
 .photogallerytext p {
   position: absolute;
   top: 250px;
-  left: 410px;
+  left: 625px;
   color: white;
   font-family: ingra;
   font-size: 35px;
@@ -571,20 +677,57 @@ color: #E8B375;
  color: #444444;
 }
 
+.challenge{
+  background-color: #F3F0EC;
+}
+
+.challenge ol{
+    margin-bottom: 0;
+    padding-left: 490px;
+    padding-right: 300px;
+}
+
+.challenge h1{
+  padding-top: 50px;
+  font-family: goldenbook,serif;
+  font-weight: bold;
+  font-size: 35px;
+  color:#A6B5C6;
+  padding-left: 490px;
+}
+
+.challenge p{
+  font-family: ingra,sans-serif;
+  font-size: 20px;
+  color: #444444;
+  padding-left: 490px;
+  padding-right: 300px;
+}
+
 .auditionrequirements h1{
   padding-top: 50px;
   font-family: goldenbook,serif;
   font-weight: bold;
   font-size: 35px;
   color:#A6B5C6;
-  text-align: center;
+  padding-left: 490px;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .auditionrequirements p{
   font-family: ingra,sans-serif;
-  font-weight: normal;
   font-size: 20px;
   color: #444444;
+  padding-left: 490px;
+    padding-right: 300px;
+}
+
+.auditionrequirements{
+  background-color: #F3F0EC;
+  padding-bottom: 50px;
 }
 
 .themusic h1{
@@ -593,13 +736,12 @@ color: #E8B375;
   font-weight: bold;
   font-size: 35px;
   color:#A6B5C6;
-  text-align: center;
 }
 
 .themusic p{
   font-family: ingra,sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 10px;
   color: #444444;
 }
 
@@ -608,13 +750,27 @@ color: #E8B375;
   font-weight: normal;
   font-size: 20px;
   color: #444444;
-  padding: 10px;
+  margin-left: 0;
+}
+
+
+.challenge ol{
+  font-family: ingra,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #444444;
+  margin-left: 0;
+  padding-bottom: 50px;
+}
+
+.themusic ul{
+  padding-bottom: 50px;
 }
 
 .formusicianstext h1{
   position: absolute;
   top: 200px;
-  left: 465px;
+  left: 530px;
   color: white;
   font-family: goldenbook;
   font-size: 80px;
@@ -623,7 +779,7 @@ color: #E8B375;
 .formusicianstext p{
   position: absolute;
   top: 300px;
-  left: 430px;
+  left: 700px;
   color: white;
   font-family: ingra;
   font-size: 35px;
@@ -732,6 +888,7 @@ padding-bottom: 30px;
   font-size: 40px;
   font-weight: bold;
   color: #A6B5C6;
+  padding-top: 50px;
 }
 
 .programs p{
@@ -775,6 +932,26 @@ padding-bottom: 30px;
   font-size: 30px;
   font-weight: bold;
   color:#E8B375;
+}
+
+
+.ensemblestext h1{
+  position: absolute;
+  top: 200px;
+  left: 580px;
+  color: white;
+  font-family: goldenbook;
+  font-size: 80px;
+}
+
+.ensemblestext p{
+  position: absolute;
+  top: 290px;
+  left: 665px;
+  color: white;
+  font-family: ingra;
+  font-size: 35px;
+  padding-top: 10px;
 }
 
 .ensemblesp{
