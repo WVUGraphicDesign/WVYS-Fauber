@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://use.typekit.net/vul8rhh.css">
   <link rel="stylesheet" href="https://use.typekit.net/vul8rhh.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script>
 </head>
 
 <body>
@@ -26,16 +35,16 @@
   <li><a href="aboutus.html">About</a></li>
   <li><a href="ensembles.html">Ensembles</a></li>
   <li><a href="media.html" class="active">Media</a></li>
-  <li><a href="join.html">Resources</a></li>
+  <li><a href="join.html">Join</a></li>
     <li><a href="formusicians.html">For Musicians</a></li>
-  <li id="contact"><a href="#">Contact us</a></li>
+  <li id="contact"><a href="contactus.html">Contact us</a></li>
   </ul>
   </header>
   <!---end of top nav-->
 
-
+<div class="container_12">
   <!---start of section two -->
-  <div class="mediaphotogalleryimg">
+  <div class="grid_12 mediaphotogalleryimg">
   <div class="topimg"><img src="images/photogallery.jpg" alt="instrumentwithreflection"></div>
 </div>
   <div class="photogallerytext">
@@ -44,13 +53,13 @@
   </div>
 
   <!---end of section two -->
-<div class="container_12">
+
   <!---start of side nav -->
   <div class="grid_3 sidenav">
     <ul>
     <li><a href="media.html">Press Release</a></li>
     <hr>
-    <li> <a href="mediaphotogallery.html">Photo Gallery</a></li>
+    <li> <a href="mediaphotogallery.html"><span style="color: #E8B375">Photo Gallery</span></a></li>
     <hr>
     <li> <a href="videos">Videos</a></li>
     <hr>
@@ -65,27 +74,93 @@
 <div class="photogalleryinfo">
 <h2 class="grid_3 prefix_1 suffix_5"> Photo Gallery </h2>
 <h3 class="grid_4 prefix_1"> 2015 Spring Concert </h3>
-<img class="grid_7 prefix_1 suffix_1" src="#" alt="2015 Spring Concert Photo Gallery">
+</div>
+
+<div>
+  <div class="mediaimggallery">
+  <ul class="grid_7 prefix_4 suffix_1 slider">
+      <li><img src="images/2015spring1.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+      <li><img src="images/2015spring2.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+      <li><img src="images/2015spring3.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+      <li><img src="images/2015spring4.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+      <li><img src="images/2015spring5.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+      <li><img src="images/2015spring6.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+      <li><img src="images/2015spring7.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    </ul>
+  </div>
+
 <p class="grid_6 prefix_1"> We had a great Chamber Concert! View video. </p>
-
-<h3 class="grid_4 prefix_1"> 2014 Winter Concert </h3>
-<img class="grid_7 prefix_4 suffix_1" src="#" alt="2014 Winter Concert Photo Gallery">
+</div>
 
 
-<h3 class="grid_4 prefix_4"> 2013 Winter Concert </h3>
-<img class="grid_7 prefix_4 suffix_1" src="#" alt="2013 Winter Concert Photo Gallery">
+<!-- <div class="2014winter">
 
+<h3 class="grid_3 prefix_4"> 2014 Winter Concert </h3>
+
+<div class="mediaimggallery">
+<ul class="grid_7 prefix_4 suffix_1 slider">
+    <li><img src="images/2014winter1.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter2.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter3.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter4.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter5.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter6.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter7.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter8.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter9.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter10.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter12.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2014winter13.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+  </ul>
+</div>
+</div> -->
+
+
+<!-- <div class="2013winter">
+
+<h3 class="grid_3 prefix_4"> 2013 Winter Concert </h3>
+
+<div class="mediaimggallery">
+<ul class="grid_7 prefix_4 suffix_1 slider">
+    <li><img src="images/2013winter1.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter2.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter3.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter4.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter5.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter6.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter7.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013winter8.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+  </ul>
+</div>
+</div> -->
+
+
+<!-- <div class="2013fest">
 
 <h3 class="grid_4 prefix_4"> 2013 FestivALL Concert </h3>
-<img class="grid_7 prefix_4 suffix_1" src="#" alt="2013 FestivALL Concert Photo Gallery">
-<p class="grid_6 prefix_4"> With special guest artist Adam Stránavský - piano </p>
+
+<div class="mediaimggallery">
+<ul class="grid_7 prefix_4 suffix_1 slider">
+    <li><img src="images/2013fest1.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest2.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest3.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest4.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest5.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest6.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest7.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+    <li><img src="images/2013fest8.jpg" alt="2015 Winter Concert Photo Gallery"></li>
+  </ul>
 </div>
+
+<p class="grid_6 prefix_4"> With special guest artist Adam Stránavský - piano </p>
+</div> -->
+
 
 </div> <!--closes container_12-->
 
 <!---start of mediaphotogallery footer-->
 <footer class="footer">
-  <img class="navlogo" src="images/wvyslogo.png" alt="wvyslogo">
+  <a href="index.html"><img class="navlogo" src="images/wvyslogo.png" alt="wvyslogo"></a>
 
   <h3> West Virginia Youth Symphony </h3>
   <!---ask kofi-->
@@ -107,8 +182,6 @@
 </footer>
 
 <!---end of mediaphotogallery footer-->
-
-
 
 </body>
 </html>

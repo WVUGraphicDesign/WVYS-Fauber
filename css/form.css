@@ -41,7 +41,6 @@ color: #A6B5C6;
 .formtext h1{
   position: absolute;
   top: 50px;
-  left: 550px;
   color: white;
   font-family: 'goldenbook', serif;
   font-size: 80px;
@@ -52,7 +51,6 @@ color: #A6B5C6;
 .formtext p{
 position: absolute;
   top: 200px;
-  left: 700px;
   color: white;
   font-family: 'ingra', sans-serif;
   font-size: 35px;
