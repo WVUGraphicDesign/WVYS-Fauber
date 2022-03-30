@@ -14,6 +14,10 @@ button{
   font-weight: lighter;
 }
 
+.submitbutton{
+  margin-left: 300px;
+}
+
 .learnmore{
   text-decoration: none;
   color: white;
@@ -300,7 +304,7 @@ width: 100%;
 }
 
 .imagetext p {
-  position: absolute;
+  position: absolute
   top: 190px;
   color: white;
   font-family: 'ingra', sans-serif;
